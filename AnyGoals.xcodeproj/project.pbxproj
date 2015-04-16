@@ -34,7 +34,6 @@
 		A429E9301AD65DAB003CCFF2 /* statsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A429E92F1AD65DAB003CCFF2 /* statsInterfaceController.m */; };
 		A43109E01AB2A4CD00AF2D80 /* CustomDatePickerActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = A43109DF1AB2A4CD00AF2D80 /* CustomDatePickerActionSheet.m */; };
 		A43109E51AB2A57300AF2D80 /* CustomDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43109E31AB2A57300AF2D80 /* CustomDatePickerViewController.m */; };
-		A43B92111ADFC1B3007E6324 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43B92101ADFC1B3007E6324 /* GoogleMobileAds.framework */; };
 		A43B92131ADFC202007E6324 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43B92121ADFC202007E6324 /* CoreMedia.framework */; };
 		A43B92151ADFC210007E6324 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43B92141ADFC210007E6324 /* EventKit.framework */; };
 		A43B92171ADFC214007E6324 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43B92161ADFC214007E6324 /* EventKitUI.framework */; };
@@ -306,7 +305,6 @@
 		A43109DF1AB2A4CD00AF2D80 /* CustomDatePickerActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDatePickerActionSheet.m; sourceTree = "<group>"; };
 		A43109E21AB2A57300AF2D80 /* CustomDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDatePickerViewController.h; sourceTree = "<group>"; };
 		A43109E31AB2A57300AF2D80 /* CustomDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDatePickerViewController.m; sourceTree = "<group>"; };
-		A43B92101ADFC1B3007E6324 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		A43B92121ADFC202007E6324 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		A43B92141ADFC210007E6324 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		A43B92161ADFC214007E6324 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
@@ -560,7 +558,6 @@
 				A43B92171ADFC214007E6324 /* EventKitUI.framework in Frameworks */,
 				A43B92151ADFC210007E6324 /* EventKit.framework in Frameworks */,
 				A43B92131ADFC202007E6324 /* CoreMedia.framework in Frameworks */,
-				A43B92111ADFC1B3007E6324 /* GoogleMobileAds.framework in Frameworks */,
 				A4ADC0781AC8DFD9004FBC86 /* CoreGraphics.framework in Frameworks */,
 				A4ADC0761AC8DFD3004FBC86 /* Foundation.framework in Frameworks */,
 				A48632331AD4C7BB00E24839 /* Crashlytics.framework in Frameworks */,
@@ -1016,7 +1013,6 @@
 				A4528E2C1AC132A0001E9125 /* QuartzCore.framework */,
 				A4528E2A1AC13292001E9125 /* SystemConfiguration.framework */,
 				A4C327551AB027CE0062114E /* libsqlite3.dylib */,
-				A43B92101ADFC1B3007E6324 /* GoogleMobileAds.framework */,
 				A4728B201AC240FB0075C94D /* ShareSDK */,
 				A4C7A8C21AC00C69008588E9 /* UMSocial_Sdk_4.2.1 */,
 				A4F967EA1AAE813800436FE4 /* AnyGoals */,

@@ -32,35 +32,6 @@ bool adWillShow;
 }
 
 
--(void)setUpADWithTime:(float)time
-{
-
-    timer = [NSTimer scheduledTimerWithTimeInterval:time target:self selector:@selector(bigADshow) userInfo:nil repeats:NO];
-    
-    
-    self.interstitial = [[GADInterstitial alloc] init];
-    self.interstitial.delegate = self;
-
-    self.interstitial.adUnitID = @"ca-app-pub-3074684817942615/1242502689";
-    
-    GADRequest *request = [GADRequest request];
-    // Requests test ads on test devices.
-//    request.testDevices = @[@"bf69fad09ecd3e30b0db75ebdd3570ec"];
-    [self.interstitial loadRequest:request];
-    
-    //big AD...
-    
-//    self.interstitialView = [[BaiduMobAdInterstitial alloc] init];
-//    self.interstitialView.delegate = self;
-//    self.interstitialView.interstitialType = BaiduMobAdViewTypeInterstitialGame;
-//    [self.interstitialView load];
-}
-//-(void)viewDidLayoutSubviews
-//{
-//    [super viewDidLayoutSubviews];
-//    
-//}
-
 -(void)viewDidAppear:(BOOL)animated
 {
     NSLog(@"111111111111111111111,<<<>>>>>");
@@ -72,14 +43,7 @@ bool adWillShow;
     
     [self initDB];
 
-    if (adWillShow == 1) {
-        [self setUpADWithTime:5.0];
 
-    }else
-    {
-        [self setUpADWithTime:25.0];
-
-    }
     
     
     if (self.allGoals.count == 0) {
@@ -633,111 +597,5 @@ bool adWillShow;
 //    //注意：该计费名为测试用途，不会产生计费，请测试广告展示无误以后，替换为您的应用计费名，然后提交AppStore.
 //    return @"d64de853";
 //}
-- (void)bigADshow
-{
-    
-    if ([self.interstitial isReady]) {
-        [self.interstitial presentFromRootViewController:self];
-    }else
-    {
-        GADRequest *request = [GADRequest request];
-        // Requests test ads on test devices.
-//        request.testDevices = @[@"bf69fad09ecd3e30b0db75ebdd3570ec"];
-        [self.interstitial loadRequest:request];
-        
-        if (timer != nil)
-        {
-            
-            
-                        [timer invalidate];
-            
-            
-                        timer = nil;
-                        
-                        
-        }
-        
-        timer = [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(bigADshow) userInfo:nil repeats:NO];
-        
-    }
-    
-    // 在需要呈现插屏广告前，先通过isReady方法检查广告是否就绪
-    // before present advertisement view please check if isReady
-//    NSLog(@"bigADshow!!");
-//    if (self.interstitialView.isReady)
-//    {
-//        
-//        [self.interstitialView presentFromRootViewController:self];
-//        
-//        
-//        
-//    }
-//    else
-//    {
-//        // 如果还没有ready，可以再调用loadAd
-//        // if !ready load again
-//        
-//        [self.interstitialView load];
-//        if (timer != nil)
-//        {
-//            
-//            
-//            [timer invalidate];
-//            
-//            
-//            timer = nil;
-//            
-//            
-//        }
-//        
-//        
-//        
-//        timer = [NSTimer scheduledTimerWithTimeInterval:10.0 target:self selector:@selector(bigADshow) userInfo:nil repeats:NO];
-//    }
-}
-
-
-#pragma mark GADInterstitialDelegate implementation
-
-- (void)interstitial:(GADInterstitial *)interstitial
-didFailToReceiveAdWithError:(GADRequestError *)error {
-    NSLog(@"interstitialDidFailToReceiveAdWithError: %@", [error localizedDescription]);
-}
-
-- (void)interstitialWillDismissScreen:(GADInterstitial *)ad
-{
-    if (timer != nil)
-{
-    [timer invalidate];
-    timer = nil;
-    
-}
-    
-    adWillShow = 0;
-    
-}
-
-/**
- *  广告展示结束
- */
-//- (void)interstitialDidDismissScreen:(BaiduMobAdInterstitial *)interstitial
-//{
-//    if (timer != nil)
-//    {
-//        [timer invalidate];
-//        timer = nil;
-//        
-//    }
-//    
-//    
-//    
-//    timer = [NSTimer scheduledTimerWithTimeInterval:45.0 target:self selector:@selector(bigADshow) userInfo:nil repeats:NO];
-//    
-//    // 插屏广告关闭后，加载一条新广告用于下次呈现
-//    //prepair for the next advertisement view
-////    [self.interstitialView load];
-//}
-//
-
 
 @end

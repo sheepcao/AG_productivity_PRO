@@ -82,7 +82,6 @@
     }else
     {
         [self.tabBarController.tabBar setHidden:NO];
-        [self setUpAD];
 
     }
     
@@ -97,35 +96,6 @@
 
 }
 
-
--(void)setUpAD
-{
-    //AD...
-    //使用嵌入广告的方法实例。
-    
-    
-    GADRequest *request = [GADRequest request];
-
-    self.bannerView.adUnitID = @"ca-app-pub-3074684817942615/8765769488";
-    self.bannerView.delegate  = self;
-//    request.testDevices = @[
-//                            @"bf69fad09ecd3e30b0db75ebdd3570ec"  // Eric's iPod Touch
-//                            ];
-    self.bannerView.rootViewController = self;
-    [self.bannerView loadRequest:request];
-
-    
-//    sharedAdView = [[BaiduMobAdView alloc] init];
-//    //sharedAdView.AdUnitTag = @"myAdPlaceId1";
-//    //此处为广告位id，可以不进行设置，如需设置，在百度移动联盟上设置广告位id，然后将得到的id填写到此处。
-//    sharedAdView.AdType = BaiduMobAdViewTypeBanner;
-//
-//    sharedAdView.frame = kAdViewPortraitRect;
-//    
-//    sharedAdView.delegate = self;
-//    [self.view addSubview:sharedAdView];
-//    [sharedAdView start];
-}
 
 #pragma mark system language
 - (BOOL)isSystemLangChinese
@@ -306,7 +276,6 @@
         
         [scrollView removeFromSuperview];
         [page removeFromSuperview];
-        [self setUpAD];
 
         
     }];
@@ -1442,58 +1411,5 @@
     }
 }
 
-#pragma mark AD..
 
-- (void)adView:(GADBannerView *)view didFailToReceiveAdWithError:(GADRequestError *)error
-{
-    NSLog(@"error ad :%@",error);
-}
-//- (NSString *)publisherId
-//{
-//    return  @"d64de853"; //@"your_own_app_id";
-//}
-//
-//- (NSString*) appSpec
-//{
-//    //注意：该计费名为测试用途，不会产生计费，请测试广告展示无误以后，替换为您的应用计费名，然后提交AppStore.
-//    return @"d64de853";
-//}
-//-(BOOL) enableLocation
-//{
-//    //启用location会有一次alert提示
-//    return YES;
-//}
-//-(void) willDisplayAd:(BaiduMobAdView*) adview
-//{
-//    //在广告即将展示时，产生一个动画，把广告条加载到视图中
-//    sharedAdView.hidden = NO;
-//    CGRect f = sharedAdView.frame;
-//    f.origin.x = -SCREEN_WIDTH;
-//    sharedAdView.frame = f;
-//    [UIView beginAnimations:nil context:nil];
-//    f.origin.x = 0;
-//    sharedAdView.frame = f;
-//    [UIView commitAnimations];
-//    NSLog(@"delegate: will display ad");
-//    
-//}
-//
-//-(void) failedDisplayAd:(BaiduMobFailReason) reason;
-//{
-//    NSLog(@"delegate: failedDisplayAd %d", reason);
-//}
-
-//人群属性接口
-/**
- *  - 关键词数组
- */
-//-(NSArray*) keywords{
-//    NSArray* keywords = [NSArray arrayWithObjects:@"目标管理",@"目标",@"记录",@"事项",@"统计",@"Goal",@"办公",@"商务", nil];
-//    return keywords;
-//}
-//
-//-(NSArray*) userHobbies{
-//    NSArray* hobbies = [NSArray arrayWithObjects:@"成就",@"目标", nil];
-//    return hobbies;
-//}
 @end

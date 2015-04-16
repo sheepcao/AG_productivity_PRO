@@ -6,7 +6,6 @@
 //  Copyright (c) 2015 Eric Cao. All rights reserved.
 //
 
-@import GoogleMobileAds;
 
 
 #import <UIKit/UIKit.h>
@@ -18,7 +17,6 @@
 
 #import "MobClick.h"
 
-#import "GoogleMobileAds/GADInterstitial.h"
 
 
 //#import "BaiduMobAdInterstitial.h"
@@ -29,9 +27,8 @@
 //#import "UMSocialFacebookHandler.h"
 
 
-@interface SecondViewController : UIViewController<GADInterstitialDelegate>
+@interface SecondViewController : UIViewController
 
-@property(nonatomic, strong) GADInterstitial *interstitial;
 
 
 @property (nonatomic,strong) NSTimer *timer;
