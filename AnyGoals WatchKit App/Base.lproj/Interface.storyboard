@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Home" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <button width="1" height="0.48999999999999999" alignment="left" title="目标列表" id="QnQ-2y-mCv">
+                            <fontDescription key="font" type="system" weight="thin" pointSize="15"/>
+                            <connections>
+                                <action selector="listTap" destination="AgC-eL-Hgc" id="10e-YX-ijc"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="0.48999999999999999" alignment="left" verticalAlignment="bottom" title="数据统计" id="8vz-GZ-bQO">
+                            <fontDescription key="font" type="system" weight="thin" pointSize="15"/>
+                            <connections>
+                                <action selector="statsTap" destination="AgC-eL-Hgc" id="LXM-xe-rWa"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="226" y="825"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController">
+                    <items>
+                        <label height="20" alignment="center" text="Label" textAlignment="center" numberOfLines="5" id="WL6-T6-NFA">
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                        </label>
+                        <label alignment="left" text="Label" numberOfLines="5" id="tMh-Jq-Oyo">
+                            <fontDescription key="font" type="system" pointSize="14"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="alertBody" destination="tMh-Jq-Oyo" id="1VJ-nh-eZf"/>
+                        <outlet property="alertTitle" destination="WL6-T6-NFA" id="qyD-ya-1yK"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="474" y="825"/>
+        </scene>
+        <!--目标列表-->
+        <scene sceneID="lru-ph-bkQ">
+            <objects>
+                <controller identifier="statusListInterfaceController" title="目标列表" id="844-iF-cAa" customClass="statusListInterfaceController">
+                    <items>
+                        <table alignment="left" id="qZW-s1-VQg">
+                            <items>
+                                <tableRow identifier="listRow" id="K6b-H2-CG3" customClass="listRowController">
+                                    <group key="rootItem" width="1" height="38" alignment="left" id="qQ7-4j-0kW">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Label" id="RMh-82-XXf"/>
+                                        </items>
+                                        <variation key="device=watch38mm" height="32"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="rowTitle" destination="RMh-82-XXf" id="yWq-aY-OPM"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="statusTable" destination="qZW-s1-VQg" id="JJX-sU-FSI"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="425" y="243"/>
+        </scene>
+        <!--GoalsInterfaceController-->
+        <scene sceneID="TAo-ha-cC3">
+            <objects>
+                <controller identifier="GoalsInterfaceController" id="cRa-CJ-Cho" customClass="GoalsInterfaceController">
+                    <items>
+                        <table alignment="left" id="4q5-l2-Tw9">
+                            <items>
+                                <tableRow identifier="listRow" selectable="NO" id="s4y-bt-cVs" customClass="listRowController">
+                                    <group key="rootItem" width="1" height="75" alignment="left" layout="vertical" id="DM0-U2-3GU">
+                                        <items>
+                                            <label height="0.17000000000000001" alignment="center" verticalAlignment="bottom" text="Label" textAlignment="center" id="Exr-cu-w6E" userLabel="goalName">
+                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            </label>
+                                            <label height="0.32000000000000001" alignment="center" text="Label" id="EhP-kR-cEI" userLabel="finishRate"/>
+                                            <slider width="1" height="0.5" alignment="left" verticalAlignment="center" continuous="YES" value="0.40000000000000002" steps="3" id="pZ4-yZ-rrc">
+                                                <connections>
+                                                    <action selector="sliderAction:" destination="s4y-bt-cVs" id="eWG-zM-L5i"/>
+                                                </connections>
+                                            </slider>
+                                        </items>
+                                        <variation key="device=watch38mm" height="71"/>
+                                        <variation key="device=watch42mm" height="75"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="finishRateLabel" destination="EhP-kR-cEI" id="e9y-y8-lK1"/>
+                                        <outlet property="processSlider" destination="pZ4-yZ-rrc" id="d0s-P2-Op5"/>
+                                        <outlet property="rowTitle" destination="Exr-cu-w6E" id="zBo-Dl-4hz"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="goalsListTable" destination="4q5-l2-Tw9" id="8SI-mU-fmx"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="598" y="243"/>
+        </scene>
+        <!--确定-->
+        <scene sceneID="Gqe-1h-Btc">
+            <objects>
+                <controller identifier="goalFinish" title="确定" id="peF-2A-6F2">
+                    <items>
+                        <label height="0.40000000000000002" alignment="center" text="恭喜" textAlignment="center" id="RVh-cb-jqA">
+                            <color key="textColor" red="0.29088731750000002" green="0.72373973540000003" blue="0.72758895990000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="20"/>
+                        </label>
+                        <label width="0.81999999999999995" alignment="center" verticalAlignment="center" text="该目标将自动移入已完成列表。" textAlignment="center" numberOfLines="4" id="Lw5-Qf-9xD">
+                            <color key="textColor" red="0.29088731750000002" green="0.72373973540000003" blue="0.72758895990000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" weight="thin" pointSize="15"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="764" y="242"/>
+        </scene>
+        <!--数据统计-->
+        <scene sceneID="dD1-cx-L9O">
+            <objects>
+                <controller identifier="statsInterfaceController" title="数据统计" id="4Sv-Ru-fod" customClass="statsInterfaceController">
+                    <items>
+                        <table alignment="left" id="Axh-HB-mNg">
+                            <items>
+                                <tableRow identifier="listRow" id="uwU-O4-m1f" customClass="listRowController">
+                                    <group key="rootItem" width="1" alignment="left" id="cnR-VK-8z8">
+                                        <items>
+                                            <label width="73.5" alignment="left" verticalAlignment="center" text="周活跃目标" id="exR-5W-htI">
+                                                <color key="textColor" red="0.85643818429999996" green="0.84477645990000005" blue="0.83847513689999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                            <label alignment="right" verticalAlignment="center" text="100%" id="fts-kn-v9g">
+                                                <color key="textColor" red="0.29088731750000002" green="0.72373973540000003" blue="0.72758895990000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" type="system" weight="thin" pointSize="19"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="rowTitle" destination="exR-5W-htI" id="nzK-Kr-l3g"/>
+                                        <outlet property="statsRate" destination="fts-kn-v9g" id="svB-mm-WGH"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="statsTable" destination="Axh-HB-mNg" id="Mtm-7d-elZ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="425" y="468"/>
+        </scene>
+    </scenes>
+</document>

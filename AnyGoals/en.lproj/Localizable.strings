@@ -1,0 +1,64 @@
+/* 
+  Localization.strings
+  AnyGoals
+
+  Created by Eric Cao on 3/26/15.
+  Copyright (c) 2015 Eric Cao. All rights reserved.
+*/
+"目标列表" = "Goal List";
+"总体进度:%.0f%%" = "Process:%.0f%%";
+"数据统计" = "Stats";
+"完成进度:%.0f%%" = "Finished:%.0f%%";
+"紧迫比例:%.0f%%" = "Urgent:%.0f%%";
+"周活跃目标:%.0f%%" = "Weekly Active:%.0f%%";
+"月活跃目标:%.0f%%" = "Monthly Active:%.0f%%";
+"\t提醒我" = "\tRemind Me";
+"点击编辑提醒备注..." = "Tap to edit...";
+"请注意" = "Attention";
+"您已经完成的行动次数超过了您输入的总行动次数,请修改" = "The action number is less than the amount you have done.";
+"确认" = "OK";
+"请完整设置目标基本信息!" = "Please complete the basic infos of your goal!";
+"截至时间" = "End Time";
+"开始时间" = "Begin Time";
+"提醒时间应为未来的某一时刻!" = "The reminder you set has expired!";
+"目标开始时间应设置在截至时间之后!" = "Begin time should be earlier than End time";
+"已选时间:%@" = "Time selected:%@";
+"已选时间: %@" = "Time selected: %@";
+"未选择" = "N/A";
+"行动次数" = "Action Amount";
+"目标名称" = "Goal Name";
+"完成时间:" = "Finished Time:";
+"开始时间:" = "Begin Time:";
+"放弃时间:" = "Abandoned Time:";
+"放弃" = "Give Up";
+"不要轻言放弃\n坚持就是胜利" = "Better to \nkeep holding on";
+"删除" = "Delete";
+"目标有问题\n那就重新来" = "Something Wrong?\nRebuild one!";
+"恢复" = "Recover";
+"恭喜" = "Congratulations!";
+"您已成功完成目标，该目标将自动移入已完成列表。" = "Goal Finished! You may review it from finished list.";
+"确认放弃该目标?" = "Confirm to abandon this goal?";
+"取消" = "Cancel";
+"放弃 " = "Abandon";
+"确认重拾该目标?" = "Confirm to recover this goal?";
+"确认删除该项?" = "Confirm to delete this item?";
+"教程" = "Review Tutorial";
+"音效" = "Sounds";
+"评论" = "Rate this app";
+"团队作品" = "Made by caoguangxu";
+"我的目标状态" = "My Goals Status";
+"我的目标状态如图所示" = "My goal status diagram";
+"行动次数不能为0." = "Action amount should larger than 0.";
+"联系方式" = "Contact";
+"总进度" = "Process";
+"完成度" = "Finished";
+"紧迫度" = "Urgent";
+
+
+"总体进度" = "Process";
+"完成进度" = "Finished";
+"紧迫比例" = "Urgent";
+"周活跃目标" = "Weekly Active";
+"月活跃目标" = "Monthly Active";
+
+"分享好友" = "Share this app";

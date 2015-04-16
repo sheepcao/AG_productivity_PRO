@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "完成时间"; ObjectID = "0DV-Ry-Loe"; */
+"0DV-Ry-Loe.text" = "完成时间";
+
+/* Class = "UILabel"; text = "8"; ObjectID = "0mO-G9-Ly5"; */
+"0mO-G9-Ly5.text" = "8";
+
+/* Class = "UILabel"; text = "去健身房"; ObjectID = "1gW-Z2-g4O"; */
+"1gW-Z2-g4O.text" = "去健身房";
+
+/* Class = "UILabel"; text = "完成时间:"; ObjectID = "2f9-MU-Uhm"; */
+"2f9-MU-Uhm.text" = "完成时间:";
+
+/* Class = "UILabel"; text = "完成时间"; ObjectID = "2fD-oQ-Mfg"; */
+"2fD-oQ-Mfg.text" = "完成时间";
+
+/* Class = "UILabel"; text = "数据统计"; ObjectID = "44l-yJ-ScQ"; */
+"44l-yJ-ScQ.text" = "数据统计";
+
+/* Class = "UIViewController"; title = "数据统计"; ObjectID = "8rJ-Kc-sve"; */
+"8rJ-Kc-sve.title" = "数据统计";
+
+/* Class = "UIViewController"; title = "目标列表"; ObjectID = "9pv-A4-QxB"; */
+"9pv-A4-QxB.title" = "目标列表";
+
+/* Class = "UILabel"; text = "8"; ObjectID = "DNK-ce-R5C"; */
+"DNK-ce-R5C.text" = "8";
+
+/* Class = "UILabel"; text = "目标列表"; ObjectID = "DQQ-lU-sJq"; */
+"DQQ-lU-sJq.text" = "目标列表";
+
+/* Class = "UILabel"; text = "去健身房"; ObjectID = "NHV-PZ-exU"; */
+"NHV-PZ-exU.text" = "去健身房";
+
+/* Class = "UILabel"; text = "完成时间"; ObjectID = "QGZ-Gd-SOs"; */
+"QGZ-Gd-SOs.text" = "完成时间";
+
+/* Class = "UISegmentedControl"; UyG-U4-8Lc.segmentTitles[0] = "进行中"; ObjectID = "UyG-U4-8Lc"; */
+"UyG-U4-8Lc.segmentTitles[0]" = "进行中";
+
+/* Class = "UISegmentedControl"; UyG-U4-8Lc.segmentTitles[1] = "已完成"; ObjectID = "UyG-U4-8Lc"; */
+"UyG-U4-8Lc.segmentTitles[1]" = "已完成";
+
+/* Class = "UISegmentedControl"; UyG-U4-8Lc.segmentTitles[2] = "计划中"; ObjectID = "UyG-U4-8Lc"; */
+"UyG-U4-8Lc.segmentTitles[2]" = "计划中";
+
+/* Class = "UISegmentedControl"; UyG-U4-8Lc.segmentTitles[3] = "已放弃"; ObjectID = "UyG-U4-8Lc"; */
+"UyG-U4-8Lc.segmentTitles[3]" = "已放弃";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VhB-e3-gvq"; */
+"VhB-e3-gvq.text" = "Label";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "asB-5q-0sT"; */
+"asB-5q-0sT.text" = "3";
+
+/* Class = "UIButton"; normalTitle = "share"; ObjectID = "mZi-Kp-1Ky"; */
+"mZi-Kp-1Ky.normalTitle" = "share";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "uMW-Sf-Sr7"; */
+"uMW-Sf-Sr7.text" = "3";

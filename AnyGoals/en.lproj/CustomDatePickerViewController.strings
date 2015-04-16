@@ -1,0 +1,6 @@
+
+/* Class = "IBUIButton"; normalTitle = "确定"; ObjectID = "736-Db-zJ3"; */
+"736-Db-zJ3.normalTitle" = "OK";
+
+/* Class = "IBUILabel"; text = "日期选择"; ObjectID = "bRw-Z7-fVG"; */
+"bRw-Z7-fVG.text" = "Select a time";

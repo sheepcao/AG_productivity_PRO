@@ -1,0 +1,48 @@
+
+/* Class = "WKInterfaceController"; title = "数据统计"; ObjectID = "4Sv-Ru-fod"; */
+"4Sv-Ru-fod.title" = "Stats";
+
+/* Class = "WKInterfaceController"; title = "目标列表"; ObjectID = "844-iF-cAa"; */
+"844-iF-cAa.title" = "Goal List";
+
+/* Class = "WKInterfaceButton"; title = "数据统计"; ObjectID = "8vz-GZ-bQO"; */
+"8vz-GZ-bQO.title" = "Stats";
+
+/* Class = "WKInterfaceController"; title = "Home"; ObjectID = "AgC-eL-Hgc"; */
+"AgC-eL-Hgc.title" = "Home";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "EhP-kR-cEI"; */
+"EhP-kR-cEI.text" = "Label";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "Exr-cu-w6E"; */
+"Exr-cu-w6E.text" = "Label";
+
+/* Class = "WKInterfaceLabel"; text = "Alert Label"; ObjectID = "IdU-wH-bcW"; */
+"IdU-wH-bcW.text" = "Alert Label";
+
+/* Class = "WKInterfaceLabel"; text = "该目标将自动移入已完成列表。"; ObjectID = "Lw5-Qf-9xD"; */
+"Lw5-Qf-9xD.text" = "You may review it from finished list.";
+
+/* Class = "WKInterfaceButton"; title = "目标列表"; ObjectID = "QnQ-2y-mCv"; */
+"QnQ-2y-mCv.title" = "Goal List";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "RMh-82-XXf"; */
+"RMh-82-XXf.text" = "Label";
+
+/* Class = "WKInterfaceLabel"; text = "恭喜"; ObjectID = "RVh-cb-jqA"; */
+"RVh-cb-jqA.text" = "Goal Finished! ";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "WL6-T6-NFA"; */
+"WL6-T6-NFA.text" = "Label";
+
+/* Class = "WKInterfaceLabel"; text = "周活跃目标"; ObjectID = "exR-5W-htI"; */
+"exR-5W-htI.text" = "周活跃目标";
+
+/* Class = "WKInterfaceLabel"; text = "100%"; ObjectID = "fts-kn-v9g"; */
+"fts-kn-v9g.text" = "100%";
+
+/* Class = "WKInterfaceController"; title = "确定"; ObjectID = "peF-2A-6F2"; */
+"peF-2A-6F2.title" = "Back";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "tMh-Jq-Oyo"; */
+"tMh-Jq-Oyo.text" = "Label";
