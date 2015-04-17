@@ -30,7 +30,7 @@
 
 
 
-#define REVIEW_URL @"http://itunes.apple.com/us/app/anygoal/id978629670?ls=1&mt=8"
+#define REVIEW_URL @"https://itunes.apple.com/us/app/anygoal-pro/id986625116?ls=1&mt=8"
 
 #define ALLAPP_URL @"http://itunes.apple.com/us/artist/cao-guangxu/id844914783"
 

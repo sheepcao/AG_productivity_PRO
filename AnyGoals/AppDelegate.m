@@ -122,25 +122,25 @@
 
 -(void)setShareIDs
 {
-    [ShareSDK registerApp:@"64ebd7b8e428"];//字符串api20为您的ShareSDK的AppKey
+    [ShareSDK registerApp:@"6d6489c42740"];//字符串api20为您的ShareSDK的AppKey
     
     //添加新浪微博应用 注册网址 http://open.weibo.com
-    [ShareSDK connectSinaWeiboWithAppKey:@"358608016"
-                               appSecret:@"a9cbd5265d787d15151845d77b15c1b6"
+    [ShareSDK connectSinaWeiboWithAppKey:@"3447785301"
+                               appSecret:@"27243b808d207dfd8a7b0d3c6ea6fb90"
                              redirectUri:@"https://api.weibo.com/oauth2/default.html"];
     //当使用新浪微博客户端分享的时候需要按照下面的方法来初始化新浪的平台
-    [ShareSDK  connectSinaWeiboWithAppKey:@"358608016"
-                                appSecret:@"a9cbd5265d787d15151845d77b15c1b6"
+    [ShareSDK  connectSinaWeiboWithAppKey:@"3447785301"
+                                appSecret:@"27243b808d207dfd8a7b0d3c6ea6fb90"
                               redirectUri:@"https://api.weibo.com/oauth2/default.html"
                               weiboSDKCls:[WeiboSDK class]];
        //添加QQ空间应用  注册网址  http://connect.qq.com/intro/login/
-    [ShareSDK connectQZoneWithAppKey:@"1104406509"
-                           appSecret:@"M9E3xS3hksyH1E4p"
+    [ShareSDK connectQZoneWithAppKey:@"1104547680"
+                           appSecret:@"aWuri4nkHJTuhSEZ"
                    qqApiInterfaceCls:[QQApiInterface class]
                      tencentOAuthCls:[TencentOAuth class]];
     
     //添加QQ应用  注册网址  http://open.qq.com/
-    [ShareSDK connectQQWithQZoneAppKey:@"1104406509"
+    [ShareSDK connectQQWithQZoneAppKey:@"1104547680"
                      qqApiInterfaceCls:[QQApiInterface class]
                        tencentOAuthCls:[TencentOAuth class]];
     
@@ -154,8 +154,8 @@
                            wechatCls:[WXApi class]];
     
     //添加Facebook应用  注册网址 https://developers.facebook.com
-    [ShareSDK connectFacebookWithAppKey:@"862357590489225"
-                              appSecret:@"d3a05ab9d236025c3c0aa138a854af5a"];
+    [ShareSDK connectFacebookWithAppKey:@"1603504083226872"
+                              appSecret:@"abf54f81fba06d9278aa2e67ea225feb"];
     
 
 }

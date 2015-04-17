@@ -37,7 +37,7 @@
 			<string>fb</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb862357590489225</string>
+				<string>fb1603504083226872</string>
 			</array>
 		</dict>
 		<dict>
@@ -47,7 +47,7 @@
 			<string>sina</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>sina.550fd791fd98c52c94000eea</string>
+				<string>sina.27243b808d207dfd8a7b0d3c6ea6fb90</string>
 			</array>
 		</dict>
 		<dict>
@@ -57,7 +57,7 @@
 			<string>qq</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>QQ41D3E7ED</string>
+				<string>QQ41D60F60</string>
 			</array>
 		</dict>
 		<dict>
