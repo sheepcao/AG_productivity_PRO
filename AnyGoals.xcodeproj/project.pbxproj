@@ -1647,7 +1647,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "703246c9-b874-43ed-8109-9d7ef79faa0f";
+				PROVISIONING_PROFILE = "8bf52a12-7358-48eb-b5b0-adfe73217ade";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1667,7 +1667,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "4e62ba1c-d5ec-422a-8b96-ad9508a62d54";
+				PROVISIONING_PROFILE = "374d7363-280c-4134-897c-eb35cfce090b";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -1686,7 +1686,7 @@
 				INFOPLIST_FILE = "AnyGoals WatchKit App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5c55dbf1-4cc8-4a51-a69a-a3997999e6cc";
+				PROVISIONING_PROFILE = "2159c6f4-bbaf-4d1e-acde-d9c474095049";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -1704,7 +1704,7 @@
 				INFOPLIST_FILE = "AnyGoals WatchKit App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5c6c987f-b4b8-4ccf-9cef-f23da2475137";
+				PROVISIONING_PROFILE = "2159c6f4-bbaf-4d1e-acde-d9c474095049";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -1717,8 +1717,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = AnyGoalWidget/AnyGoalWidget.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: CAO GUANGXU (JTX9TS223Q)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: CAO GUANGXU (JTX9TS223Q)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1732,7 +1732,7 @@
 					"$(PROJECT_DIR)/UMSocial_Sdk_4.2.1",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "da8c9bed-3334-48ba-a00b-b118cf539ad3";
+				PROVISIONING_PROFILE = "9ef6b0f5-1f97-438a-bdca-cdebaed743c6";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1755,7 +1755,7 @@
 					"$(PROJECT_DIR)/UMSocial_Sdk_4.2.1",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "abcf63f6-ffff-4e41-a6e7-3caa6e1d1c25";
+				PROVISIONING_PROFILE = "a32b8d20-9ed9-4e04-9b76-4dd31806a00f";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -1842,8 +1842,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = AnyGoals/AnyGoals.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: CAO GUANGXU (JTX9TS223Q)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: CAO GUANGXU (JTX9TS223Q)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/UMSocial_Sdk_4.2.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
@@ -1892,7 +1892,7 @@
 					"-lstdc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0343e18b-b1f0-4c44-a38d-02ace7214a35";
+				PROVISIONING_PROFILE = "363dd6de-bad3-434a-bc11-cc9c38d47156";
 			};
 			name = Debug;
 		};
@@ -1949,7 +1949,7 @@
 					"-lstdc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "52cdfa31-f6eb-4460-bc88-e139e8140a11";
+				PROVISIONING_PROFILE = "875006bc-784f-48d0-ad0a-15f56b7efb1f";
 			};
 			name = Release;
 		};

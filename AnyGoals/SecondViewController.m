@@ -43,7 +43,6 @@ bool adWillShow;
     
     [self initDB];
 
-
     
     
     if (self.allGoals.count == 0) {
@@ -597,5 +596,4 @@ bool adWillShow;
 //    //注意：该计费名为测试用途，不会产生计费，请测试广告展示无误以后，替换为您的应用计费名，然后提交AppStore.
 //    return @"d64de853";
 //}
-
 @end

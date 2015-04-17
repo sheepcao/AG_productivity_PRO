@@ -36,17 +36,17 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3B081A83531B91E6EF621BAA80DE14721AEA1833</string>
+			<string>36D1AC773BB9F486D5BD8BD8E53F96A0ADF341CD</string>
 			<key>IDESourceControlWCCName</key>
-			<string>AnyGoals</string>
+			<string>AnyGoalPro.</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>36D1AC773BB9F486D5BD8BD8E53F96A0ADF341CD</string>
+			<string>3B081A83531B91E6EF621BAA80DE14721AEA1833</string>
 			<key>IDESourceControlWCCName</key>
-			<string>AnyGoalsPro</string>
+			<string>AnyGoals</string>
 		</dict>
 	</array>
 </dict>
