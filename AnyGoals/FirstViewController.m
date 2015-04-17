@@ -96,6 +96,8 @@
 
 }
 
+
+
 #pragma mark system language
 - (BOOL)isSystemLangChinese
 {
@@ -1409,5 +1411,6 @@
         }
     }
 }
+
 
 @end

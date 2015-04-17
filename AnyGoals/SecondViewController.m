@@ -32,6 +32,7 @@ bool adWillShow;
 }
 
 
+
 -(void)viewDidAppear:(BOOL)animated
 {
     NSLog(@"111111111111111111111,<<<>>>>>");
@@ -580,20 +581,5 @@ bool adWillShow;
 }
 
 
-#pragma mark big advertisement
-//
-//-(void)dealloc
-//{
-//    _dmInterstitial.delegate = nil; // please set delegete = nil first
-//}
-//- (NSString *)publisherId
-//{
-//    return  @"d64de853"; //@"your_own_app_id";
-//}
-//
-//- (NSString*) appSpec
-//{
-//    //注意：该计费名为测试用途，不会产生计费，请测试广告展示无误以后，替换为您的应用计费名，然后提交AppStore.
-//    return @"d64de853";
-//}
+
 @end
