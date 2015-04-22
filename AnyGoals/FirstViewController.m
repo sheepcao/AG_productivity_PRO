@@ -41,6 +41,7 @@
 
 //    NSLog(@"Google Mobile Ads SDK version: %@", [GADRequest sdkVersion]);
 
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(refresh) name:UIApplicationWillEnterForegroundNotification object:nil];
 
     
     self.processingTasks = [[NSMutableArray alloc] init];
@@ -96,7 +97,24 @@
 
 }
 
-
+-(void)refresh
+{
+    
+    if (self.goalTypeSegment.selectedSegmentIndex == 0) {
+        [self configProcessingTasks];
+        
+    }else if(self.goalTypeSegment.selectedSegmentIndex == 1)
+    {
+        [self configFinishedTasks];
+    }else if(self.goalTypeSegment.selectedSegmentIndex == 2)
+    {
+        [self configNotyetTasks];
+    }else if(self.goalTypeSegment.selectedSegmentIndex == 3)
+    {
+        [self configGiveupTasks];
+    }
+    [self.tableView reloadData];
+}
 
 #pragma mark system language
 - (BOOL)isSystemLangChinese

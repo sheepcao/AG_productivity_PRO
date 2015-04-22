@@ -145,12 +145,12 @@
                        tencentOAuthCls:[TencentOAuth class]];
     
     //添加微信应用 注册网址 http://open.weixin.qq.com
-    [ShareSDK connectWeChatWithAppId:@"wx060aa2d39d56bf11"
+    [ShareSDK connectWeChatWithAppId:@"wx910ccb5440b02ead"
                            wechatCls:[WXApi class]];
     
     
-    [ShareSDK connectWeChatWithAppId:@"wx060aa2d39d56bf11"   //微信APPID
-                           appSecret:@"2e4304f47f496fd7bee18fa8affcaa0e"  //微信APPSecret
+    [ShareSDK connectWeChatWithAppId:@"wx910ccb5440b02ead"   //微信APPID
+                           appSecret:@"86cc7eb998cd9547585b7830f79f4593"  //微信APPSecret
                            wechatCls:[WXApi class]];
     
     //添加Facebook应用  注册网址 https://developers.facebook.com
